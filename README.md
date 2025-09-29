@@ -59,35 +59,18 @@ The project is split into **Frontend** and **Backend** for maintainability and s
 
 ---
 
-## 📦 Backend Package Roles
-
-The backend is modular, with each package responsible for a specific concern:
-
-- **user_preprocessor.py** → Cleans, encodes, and prepares user data  
-- **user_predictor.py** → Machine learning models for user behavior prediction  
-- **network_preprocessor.py** → Cleans and prepares network/connection logs  
-- **network_predictor.py** → Detects anomalies or risks in user/network interactions  
-- **zero_day_detection_pipeline.py** → Integrates all anomaly detection (user + network) for stronger security
-
-This modular design ensures that **semantic anomalies** (user behavior) and **temporal anomalies** (log timelines) can be combined into an **ensemble detection system** for identifying unusual patterns.
-
----
-
 ## 🎯 Project Goals
 
 - Provide a **scalable CRM solution** accessible to startups and SMEs.
 - Focus on **empowering businesses** with actionable insights rather than overwhelming them with data.
 - Encourage a **self-reliant ecosystem**, where users can manage clients and growth without depending on costly third-party CRMs.
-- Extend towards **AI-driven insights** for predicting customer needs and improving retention.
-
 ---
 
 ## 🚀 Tech Stack
 
 - **Frontend:** React Native (Expo), JavaScript/TypeScript  
 - **Backend:** Python, FastAPI  
-- **Database:** PostgreSQL (planned), SQLite (for dev)  
-- **Machine Learning:** Scikit-learn, Pandas, NumPy  
+- **Database:** mongodb (planned), SQLite (for dev)  
 - **Version Control:** Git + GitHub  
 
 ---
@@ -97,7 +80,6 @@ This modular design ensures that **semantic anomalies** (user behavior) and **te
 - ✅ Repository created: [Purpose by Stop-Down](https://github.com/ManzarAli25/PURPOSE-BY-STOPDOWN)  
 - ✅ Backend package structure defined  
 - ✅ Frontend initialized with Expo  
-- 🔄 Ongoing: Integration of anomaly detection pipeline  
 - 🔄 Planned: Full CRM workflows (leads, tasks, opportunities)
 
 ---
@@ -106,7 +88,6 @@ This modular design ensures that **semantic anomalies** (user behavior) and **te
 
 1. **Phase 1:** Basic CRM with user & lead management  
 2. **Phase 2:** Dashboard and analytics integration  
-3. **Phase 3:** Anomaly detection pipeline (user + network logs)  
 4. **Phase 4:** API integrations (email, third-party tools)  
 5. **Phase 5:** Offline-first mobile support  
 
