@@ -23,21 +23,6 @@ Just as in life, the app focuses on **purposeful action** rather than redundant 
 - Task and reminder scheduling
 - Customer communication history
 - Opportunity tracking
-
-### 📊 Data Insights
-- Real-time reports and dashboards
-- Sales performance tracking
-- Forecasting powered by machine learning
-
-### 🔐 Security & Privacy
-- Role-based access control
-- Encrypted storage of sensitive data
-- GDPR-compliant handling of user data
-
-### ⚙️ Integration Ready
-- API-first backend design
-- Can integrate with third-party services (email, marketing tools, etc.)
-
 ---
 
 ## 🏗️ Project Structure
@@ -55,8 +40,6 @@ The project is split into **Frontend** and **Backend** for maintainability and s
 - Authentication & Authorization
 - Business logic (CRM workflows, data processing)
 - Database interaction (SQL or NoSQL depending on scaling needs)
-- ML-powered anomaly detection (planned for sales & behavior patterns)
-
 ---
 
 ## 🎯 Project Goals
@@ -70,7 +53,7 @@ The project is split into **Frontend** and **Backend** for maintainability and s
 
 - **Frontend:** React Native (Expo), JavaScript/TypeScript  
 - **Backend:** Python, FastAPI  
-- **Database:** mongodb (planned), SQLite (for dev)  
+- **Database:** mongodb (planned)
 - **Version Control:** Git + GitHub  
 
 ---
